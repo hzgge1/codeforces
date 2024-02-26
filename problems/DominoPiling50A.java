@@ -1,0 +1,8 @@
+
+public class DominoPiling50A {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println(sc.nextInt()*sc.nextInt()/2);
+		sc.close();
+	}
+}
