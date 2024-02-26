@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class DominoPiling50A {
 	public static void main(String[] args) {

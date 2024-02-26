@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Team231A {
 	public static void main(String[] args) {

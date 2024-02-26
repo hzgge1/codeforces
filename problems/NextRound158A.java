@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class NextRound158A {
 	public static void main(String[] args) {

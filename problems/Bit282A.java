@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Bit282A {
 	public static void main(String[] args) {
