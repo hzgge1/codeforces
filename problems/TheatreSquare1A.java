@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class TheatreSquare1A {
@@ -6,7 +7,8 @@ public class TheatreSquare1A {
 		double n = sc.nextInt();
 		double m = sc.nextInt();
 		double a = sc.nextInt();
-		System.out.println((int)(Math.ceil(n/a)*Math.ceil(m/a)));
+		double result = Math.ceil(n/a)*Math.ceil(m/a);
+		System.out.println(new BigDecimal(result));
 	}
 
 }
