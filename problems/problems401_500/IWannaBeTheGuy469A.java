@@ -1,3 +1,4 @@
+package problems401_500;
 import java.util.Scanner;
 
 public class IWannaBeTheGuy469A {

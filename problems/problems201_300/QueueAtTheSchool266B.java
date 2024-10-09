@@ -1,3 +1,4 @@
+package problems201_300;
 import java.util.Scanner;
 
 public class QueueAtTheSchool266B {

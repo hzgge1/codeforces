@@ -1,3 +1,4 @@
+package problems301_400;
 import java.util.Scanner;
 
 public class Magnets334A {

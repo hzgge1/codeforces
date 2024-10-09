@@ -1,3 +1,4 @@
+package problems301_400;
 import java.math.BigDecimal;
 import java.util.Scanner;
 
