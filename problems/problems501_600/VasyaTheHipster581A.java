@@ -1,3 +1,4 @@
+package problems501_600;
 import java.util.Scanner;
 
 public class VasyaTheHipster581A {

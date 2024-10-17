@@ -1,3 +1,4 @@
+package problems601_700;
 import java.util.Scanner;
 
 public class AgainTwentyFive630A {
