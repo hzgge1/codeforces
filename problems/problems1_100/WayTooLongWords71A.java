@@ -7,7 +7,10 @@ public class WayTooLongWords71A {
 		Scanner sc = new Scanner(System.in);
 	    int n = sc.nextInt();
 	    sc.nextLine();
-	    if(n<1 || n>100) return;
+	    if(n<1 || n>100) {
+	    	sc.close();
+	    	return;
+	    }
 	    for(int i=0;i<n;i++) {
 	    	String s = sc.nextLine();
 	    	if(s.length()<=10) {

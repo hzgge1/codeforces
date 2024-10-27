@@ -7,10 +7,13 @@ public class ChatRoom58A {
 		String s = sc.nextLine();
 		String[] hello = "hello".split("");
 		for(int i=0;i<hello.length;i++) {
-			if(!s.contains(hello[i])) {System.out.println("NO"); return;}
+			if(!s.contains(hello[i])) {
+				System.out.println("NO"); 
+				sc.close();
+				return;
+			}
 			int index = s.indexOf(hello[i]);
 			s = s.substring(index+1);
-//			System.out.println("("+hello[i]+")s="+s);
 		}
 		System.out.println("YES");
 		sc.close();

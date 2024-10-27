@@ -10,6 +10,7 @@ public class TheatreSquare1A {
 		double a = sc.nextInt();
 		double result = Math.ceil(n/a)*Math.ceil(m/a);
 		System.out.println(new BigDecimal(result));
+		sc.close();
 	}
 
 }

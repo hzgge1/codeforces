@@ -16,6 +16,7 @@ public class Football96A {
 			}
 			if(n>=7) {
 				System.out.println("YES");
+				sc.close();
 				return;
 			}
 		}
