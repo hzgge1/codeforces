@@ -1,6 +1,7 @@
+package problems401_500;
 import java.util.Scanner;
 
-public class VanyaAndCubes {
+public class VanyaAndCubes492A {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

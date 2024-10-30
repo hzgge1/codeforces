@@ -1,3 +1,4 @@
+package problems701_800;
 import java.util.Scanner;
 
 public class BrainsPhotos707A {
