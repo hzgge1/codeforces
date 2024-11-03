@@ -1,6 +1,7 @@
+package problems1501_2000;
 import java.util.Scanner;
 
-public class PrependAndAppend {
+public class PrependAndAppend1791C {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -1,12 +1,13 @@
+package problems1501_2000;
 import java.util.Scanner;
 
-public class VladAndTheBestOfFive1926A {
+public class GameWithIntegers1899A {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int lines = Integer.parseInt(sc.nextLine());
+		int lines = sc.nextInt();
 		for (int i = 0; i < lines; i++) {
-			System.out.println((sc.nextLine().replace("A", "").length()<3)? "A":"B");
+			System.out.println(sc.nextInt()%3==0 ? "Second":"First");
 		}
 		sc.close();
 	}

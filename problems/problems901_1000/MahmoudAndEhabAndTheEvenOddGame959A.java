@@ -1,3 +1,4 @@
+package problems901_1000;
 import java.util.Scanner;
 
 public class MahmoudAndEhabAndTheEvenOddGame959A {
