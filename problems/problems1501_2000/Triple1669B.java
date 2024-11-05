@@ -1,3 +1,4 @@
+package problems1501_2000;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;

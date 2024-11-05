@@ -1,3 +1,4 @@
+package problems1001_1500;
 import java.util.Scanner;
 
 public class GiftsFixing1399B {
