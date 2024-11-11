@@ -1,3 +1,4 @@
+package problems1501_2000;
 import java.util.Scanner;
 
 public class MakeItWhite1927A {
