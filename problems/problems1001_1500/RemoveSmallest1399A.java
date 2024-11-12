@@ -1,35 +1,35 @@
 package problems1001_1500;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
-
-/**
- * 
- * @author heng6
- *	not completed
- */
 
 public class RemoveSmallest1399A {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int rep = sc.nextInt();
-		for(int i=0;i<rep;i++) {
-			ArrayList<String> list = new ArrayList<String>();
-			String result = "YES";
-			int n = sc.nextInt();
+		int lines = Integer.parseInt(sc.nextLine());
+		while(lines-- > 0) {
 			sc.nextLine();
-			String[] arr = sc.nextLine().split(" ");
-			for(String s : arr) {
-				if(!list.contains(s)) 
-					list.add(s);
-				if(list.size() == 3) {
-					result = "NO";
-					break;
-				}
-			}
-			System.out.println(result);
+			int[] arr = stringToIntArray(sc.nextLine());
+			Arrays.sort(arr);
+ 			System.out.println(function(arr)? "YES":"NO");
 		}
 		sc.close();
+	}
+
+	private static int[] stringToIntArray(String s) {
+		String[] data = s.split(" ");
+		int[] arr = new int[data.length];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = Integer.parseInt(data[i]);
+		}
+		return arr;
+	}
+
+	private static boolean function(int[] arr) {
+		for (int i = 0; i < arr.length-1; i++) {
+			if(arr[i+1] - arr[i] > 1) return false;
+		}
+		return true;
 	}
 
 }
