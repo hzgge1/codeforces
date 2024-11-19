@@ -1,3 +1,4 @@
+package problems2000_inf;
 import java.util.Scanner;
 
 public class osuMania2009B {
