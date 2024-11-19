@@ -1,5 +1,6 @@
 package problems1_100;
 
+
 import java.util.Scanner;
 
 public class Borze32B {
