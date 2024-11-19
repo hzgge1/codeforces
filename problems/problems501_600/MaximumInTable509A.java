@@ -1,6 +1,7 @@
+package problems501_600;
 import java.util.Scanner;
 
-public class MaximumInTable {
+public class MaximumInTable509A {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
